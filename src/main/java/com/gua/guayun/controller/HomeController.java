@@ -25,4 +25,10 @@ public class HomeController {
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
         return String.format("Hello %s!", name);
     }
+
+    @GetMapping("/jenkins")
+    @ResponseBody
+    public String jenkins() {
+        return "jenkins很不错";
+    }
 }
