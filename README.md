@@ -13,6 +13,8 @@ tomcat部署方式
 
 http://xionghao.top:8080/guayun/
 
+tomcat部署后访问速度比java -jar 方式要快
+
 
 ----
 从github上面拉取代码。
